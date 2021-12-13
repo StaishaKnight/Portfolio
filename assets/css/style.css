@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #3d3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /* apply styles to <header> */
+  header {
+    padding: 35px 35px;
+    background-color: #fce138
+    ;
+  }
+  
+  .header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #3d3c3c;
+    margin: 0;
+    display: inline;
+  }
+  .header a {
+    text-decoration: none;
+    color: #3d3c3c;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  .header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 42px;
+  }
+
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  
+  .footer h2 {
+    display: inline;
+    color: #3d3c3c;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: #3d3c3c;
+  }
+
+  
+  /* Hero Style Start */
+  .hero {
+    background-image: url('../images/BW\ port\ hero.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  /* Hero Style End */
+
+  .hero-form {
+    border: 3px solid #3d3c3c;
+    background-color: #fce138;
+    padding: 10px;
+    width: 300px;
+    color: #3d3c3c;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+  
+  .form-input {
+    border: 1px solid #3d3c3c;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #3d3c3c;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .hero-form label {
+    margin: 0 5px;
+  }
+  
+  .hero-form button {
+    color: #fce138;
+    background-color: #3d3c3c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .about-me {
+  margin: 50px auto;
+    padding-bottom: 40px;
+    width: 80%;
+    align-items: right;
+    justify-content: space-between;
+    border-bottom: 1px solid #fce138;
+  }
+
+
+
+  .work {
+    width: -50%;
+     margin: 0 auto;
+    justify-content: space-around;
+    
+      }
+     
+    .work {
+    margin: 10px;
+    background: #3d3c3c;
+    background-size: 100%;
+    color: #fce138;
+  
+
+  }
+
